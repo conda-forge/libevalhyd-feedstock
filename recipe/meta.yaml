@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: libevalhyd
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://gitlab.irstea.fr/HYCAR-Hydro/evalhyd/evalhyd-cpp/-/archive/v{{ version }}/evalhyd-cpp-v{{ version }}.tar.gz
-  sha256: 482e74510cbf4025d95d24baf97aa0df9cc92105d6eaeefe41798431cd602fa6
+  sha256: 637ba5a227d890fc559fecf41a2c90ffe45629fc756e2d34ec1906b6c2a21b26
 
 build:
   number: 0
